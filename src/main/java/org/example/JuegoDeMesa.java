@@ -12,9 +12,7 @@ public class JuegoDeMesa extends Juego {
         this.maxJugadores = maxJugadores;
     }
 
-    public JuegoDeMesa(String nombre) {
-        super(nombre);
-    }
+
 
     @Override
     public String toString() {

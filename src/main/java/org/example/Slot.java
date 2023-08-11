@@ -8,6 +8,14 @@ class Slot extends Juego {
         this.palanca = palanca;
     }
 
+    public boolean isPalanca() {
+        return palanca;
+    }
+
+    public void setPalanca(boolean palanca) {
+        this.palanca = palanca;
+    }
+
     @Override
     public String toString() {
         return "Slot{" +

@@ -7,15 +7,17 @@ public class Principal {
         System.out.println(casino.toString());
         JuegoDeMesa juegoMesa1 = new JuegoDeMesa("Blackjack", 20, 2, 6);
         JuegoDeMesa juegoMesa2 = new JuegoDeMesa("Poquer", 20, 1, 8);
+        JuegoDeMesa juegoMesa3 = new JuegoDeMesa("Damas", 1, 2, 2);
 
         Slot slot1 = new Slot("Slot 1", true);
         Slot slot2 = new Slot("Slot 2", false);
 
         casino.agregarJuegoMesa(juegoMesa1);
         casino.agregarJuegoMesa(juegoMesa2);
+        casino.agregarJuegoMesa(juegoMesa3);
         casino.agregarSlot(slot1);
         casino.agregarSlot(slot2);
-
+        casino.mostrarInfoCasino();
 
 
     }

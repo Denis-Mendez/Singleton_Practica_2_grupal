@@ -55,6 +55,13 @@ class Casino {
             System.out.println("No se pueden agregar más slots.");
         }
     }
+    public void mostrarInfoCasino() {
+        System.out.println("Nombre del Casino: " + nombre);
+        System.out.println("Responsable: " + responsable);
+        System.out.println("Juegos de mesa: " + juegosDeMesa);
+        System.out.println("Slots: " + slots);
+    }
+
 
     @Override
     public String toString() {
